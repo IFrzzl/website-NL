@@ -1,1 +1,93 @@
-JA JA NEDERLANDS
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+  	<title>Frzzl</title>
+  	<link rel="stylesheet" href="../assets/style.css">
+	<link rel="stylesheet" href="../assets/darkmode.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../assets/script.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="header">
+	<img src="https://i.imgur.com/NgQYWc2.png" alt="Een logo van een golvend cello om een helling van 45 graden." id="logo">
+	<ul id="links">
+		<li style="display: flex; align-items: center;" id="drop-btn" title="Taal wijzigen" onclick="dropdown()">
+			<img src="https://support.crowdin.com/assets/flags/en-GB.png" alt="GB" class="flags">
+			<p style="float: right;">English</p>
+		</li>
+		<li>
+			<!-- Custom Dark Mode Button [at https://codepen.io/ifrzzl/pen/vYWVNYg] -->
+			<div class="wrap" id="darkmode-btn" title="Thema wijzigen (Licht/Donker)" onclick="darkmode()">
+				<div id="gap"></div>
+				<div class="line keeplight"></div>
+				<div class="line keeplight" style="transform: rotate(90deg)"></div>
+				<div class="line keeplight" style="transform: rotate(45deg)"></div>
+				<div class="line keeplight" style="transform: rotate(135deg)"></div>
+				<div id="circle" class="keeplight"></div>
+				<div id="cover" class="sundown"></div>
+			</div>
+</div>
+</li>
+</ul>
+</div>
+
+<div id="dropdown" class="dropdown-content">
+	<ul class="dropdown-content keeplight">
+		<li class="keeplight">
+			<a href="https://fr.frzzl.uk">
+				<img src="https://support.crowdin.com/assets/flags/fr.png" class="flags">
+			</a>
+			<p>French</p>
+		</li>
+		<li class="keeplight">
+			<a href="https://nl.frzzl.uk">
+				<img src="https://support.crowdin.com/assets/flags/nl.png" class="flags">
+			</a>
+			<p>Dutch</p>
+		</li>
+		<li class="keeplight">
+			<a href="https://frzzl.uk">
+				<img src="https://support.crowdin.com/assets/flags/en-GB.png" class="flags">
+			</a>
+			<p>English</p>
+		</li>
+	</ul>
+</div>
+
+<a href="#about">
+	<img src="https://i.imgur.com/sTVfgTG.png" alt="Pijl-omlaag" id="down-arrow" onclick="arrowanimate()">
+</a>
+<div id="intro-bar">
+	<p>
+		<span id="bigname" class="keeplight">Welkom!</span>
+		<br>
+		Het lijkt alsof je in mijn hoekje op het web bent!<br>Misschien een kijkje even nemen?
+	</p>
+	<div id="introsquare">
+		<img src="https://i.imgur.com/d32ei8n.png" alt="Hetzelfde logo, maar 't is vertical.">
+	</div>
+</div>
+
+<div class="box">
+	<h1 style="color: black">Ik ben Fraser.</h1>
+	<p id="about">
+		<br>
+		Online, ik gebruik Frzzl, maar ik zal hier het echt houden.<br>
+		ik hou van talen (en bij uitbreiding taalkunde), in het bijzonder conlangs -
+		Ik heb het Interlingue en Toki Pona geleerd, en ik kan ook een beetje Nederlands en Frans; momenteel leer ik het Duits en het Chinees. <br>
+		Omdat dit website een plaatsvervanger is (totdat ik iets om het voor te gebruiken), neem ik nu afscheid. STot later!
+	</p>
+</div>
+
+<div id="footer">
+	<a href="https://github.com/IFrzzl">
+		<img src="https://i.imgur.com/CCRmJof.png" alt="Logo van Github">
+	</a>
+</div>
+<!-- partial -->
+
+
+</body>
+</html>
